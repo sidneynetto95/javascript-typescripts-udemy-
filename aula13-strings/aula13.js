@@ -6,16 +6,16 @@
 //               0123456789....
 let umaString = "O rato roeu a roupa do rei de roma.";
 
-/* Split!!!! uma forma de cortar os ('...') da string 
+/* Split!!!! uma forma de cortar os itens dentro da função ('...') da string , segue o exemplo cortando os r
 console.log(umaString.split('r'));
 você pode mandar ele fazer em quantos vc quiser!!!
 console.log(umaString.split('r'), 3);
 */
 
-/* Slice!!!! uma forma de abreviamente da função
-console.log(umaString.slice(-5));
-console.log(umaString.substring(umaString.length -5));
-*/
+// Slice!!!! uma forma de abreviamente da função
+//console.log(umaString.slice(-5));
+//console.log(umaString.substring(umaString.length -5));
+
 
 //console.log(umaString.toUpperCase());  deixa todas as letras maiusculas
 //console.log(umaString.toLowerCase());  deixa todas as letras minusculas
