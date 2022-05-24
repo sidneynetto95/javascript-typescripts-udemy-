@@ -1,4 +1,11 @@
-//tipos de dados primitivos: Strings , Number, Undefined, null, boolean.
+//tipos de Dados primitivos:
+//Strings
+//Number 
+//Undefined 
+//null (symbol, bigint)
+//boolean.
+// São imutaveis
+// São passados por cópias
 
 
 
