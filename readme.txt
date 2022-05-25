@@ -1,0 +1,1 @@
+instalar as extensões dracula theme, material icon theme, code runner
