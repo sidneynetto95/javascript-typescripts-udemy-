@@ -1,0 +1,8 @@
+Para começar a fazer o media queries se utiliza o css 
+abrimos o parametro @media () {}
+() aqui colocamos o tamanho máximo e o comportamento até aquele width ex : (max-width: 800px)
+
+
+ex:  @medio (max-width 800px) {
+    
+}
