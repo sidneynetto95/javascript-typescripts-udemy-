@@ -14,6 +14,7 @@ Vem sempre após um if
   Necessario para fechar um if statement, executa se nenhuma outra condição for atendida.
   Só pode ter um else na checagem
 
+Podemos usar condições sem else if, utilizando apenas if e else na checagem.
 */
 
 
