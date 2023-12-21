@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+    background-color: rgb(27, 114, 66);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 16vh;
+    padding: 16px;
+    display: flexbox;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 4px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    
+
+}
+
+form > input {
+    margin-bottom: 12px;
+}
+
+div, section, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px;
+}

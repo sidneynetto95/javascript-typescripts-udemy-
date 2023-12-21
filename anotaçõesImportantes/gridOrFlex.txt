@@ -1,0 +1,28 @@
+O grid e o flex são comandos utéis em CSS, que nos permitem a criação de colunas dentro da mesma div.
+----------------------------------------------------------------------------
+    !!!!!!!!!!!! GRID  !!!!!!!!!!!!
+O comando vem a partir da tag display e tem muitas configurações possíveis.
+um pequeno exemplo de uma grid simples seria mais ou menos assim:
+
+
+    .grid-content {
+        display:grid;
+        grid-template-colums: 1fr 1fr;         
+    }
+
+fr : Fragmento
+
+Tudo que estiver dentro da div será aplicado o grid fazendo com que você consiga manipular as colunas. 
+Cada fragmento pode ser classificado como as div's dentro da div do grid que serão feitas a coluna. (não tenho certeza disso, mas na prática funciona)
+Pode ser usado também o comando !!!!justify-content!!! juntamente ao grid para alinhar os itens no centro da coluna. No eixo Y
+Pode ser usado também o comando !!!!align-items!!! juntamente ao grid para alinhar os itens no centro da linha da coluna. No eixo X
+
+----------------------------------------------------------------------------
+
+Pode ser feito usando o display: flex;  Com isso você pode usar o flex-flow para dizer a direção do flex. Exemplo: 
+        .grid-one-content {
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+----------------------------------------------------------------------------

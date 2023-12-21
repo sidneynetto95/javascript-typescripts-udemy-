@@ -1,0 +1,10 @@
+Esta pasta foi criada se baseando me uma estrutura padrão de projetos. 
+Nessa estrutura a pasta raiz só recebe o arquivo Index do html (index.html) e se é criada uma pasta de Assets que recebe os outros recursos que serão utilizados como por exemplo o css, imagens ou java script.
+
+            pasta modelo
+             ↓       ↓
+       index.html---pasta(Assets)
+                ↓             ↓
+            pasta(css)----pasta(js)
+                ↓              ↓
+            style.css---/---script.js
